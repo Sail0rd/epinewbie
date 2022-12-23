@@ -1,0 +1,22 @@
+{
+  "name": "epinewbie",
+  "version": "1.0.0",
+  "description": "discord bot that use a scraper for epita's ing announcements",
+  "main": "index.js",
+  "private": "true",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "node-fetch": "^2.6.7",
+    "openai": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
